@@ -20,9 +20,7 @@ Despite large amounts of graphics trimming, this config still allows the game to
 (+) EXTRA FPS TIPS:
   - Using a custom HUD rather than the default such as Toonhud will drastically improve fps(for me it was by 20) and looks better imo.
   - Using Steam launch options such as these will trim bloat to improve performace:
-     - -high                 //  Sets game priority to high so TF2 won't have to fight against other applications for cpu/ram 
      - -nosteamcontroller    //  Disables compatibility with steam deck
-     - -noipx                //  An unused networking protocol
      - -nojoy                //  Disables controller compatibility
      - -nohltv               //  Disables broadcasting
      - -no-browser           //  Disables Steam overlay browser (source of the cancerous Steam Webhelper processes)
