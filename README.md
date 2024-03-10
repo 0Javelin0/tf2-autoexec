@@ -71,6 +71,7 @@ Please check this repo occasionally, as I plan on fine-tuning the way the comman
      > Disables controller vibration
      - -nogamepadui
      > Self explanatory, disables UI for gamepad compatibility such as the steam deck.
+     
      (options past this point are optional & do not increase performance but improve user experience)
     
      - -noforcemaccel
