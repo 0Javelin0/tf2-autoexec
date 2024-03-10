@@ -1,5 +1,9 @@
-
-
+(+) INSTALLATION:
+  1. Download the config file.
+     - Right click on autoexec.cfg
+     - 
+     - Click 'Save as'
+     
 
 (!) THIS CONFIG WILL:
   - Remove ragdolls & gibs
