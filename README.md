@@ -44,22 +44,31 @@ Please check this repo occasionally, as I plan on fine-tuning the way the comman
 ## (+) EXTRA FPS TIPS:
   - Using a custom HUD rather than the default such as Toonhud will drastically improve fps(for me it was by 20) and looks better IMO.
   - Using Steam launch options such as these will trim bloat to improve performace:
-     - -nosteamcontroller      //  Disables compatibility with steam deck.
-     - -nojoy                  //  Disables controller compatibility.
-     - -nohltv                 //  Disables broadcasting.
-     - -no-browser             //  Disables Steam overlay browser. (source of the cancerous Steam Webhelper processes)
-     - -vrdisable              //  Disables compatibility with VR headsets.
-     - -fps_max #              //  # being the amount of fps to cap. Capping your fps increases stability and keeps it more consistent. I suggest your monitor's refresh rate, but some would argue set it higher due to hit register advantages.
-     - fullscreen              //  Usually default. If game isn't fullscreen, your desktop environment must display other things such as your wallpaper, shortcuts, taskbar, etc., using minute amounts of ram, but every last bit counts.
-     - noquicktime             //  
-     - softparticlesdefaultoff //  
-     - particles 1             //  
-     - precachefontchars       //  
+     - -nosteamcontroller
+     > Disables compatibility with steam deck.
+     - -nojoy
+     > Disables controller compatibility.
+     - -nohltv
+     > Disables broadcasting.
+     - -no-browser
+     > Disables Steam overlay browser. (source of the cancerous Steam Webhelper processes)
+     - -vrdisable
+     > Disables compatibility with VR headsets.
+     - -fps_max #
+     > '#' being the amount of fps to cap. Capping your fps increases stability and keeps it more consistent. I suggest your monitor's refresh rate, but some would argue set it higher due to hit register advantages.
+     - fullscreen
+     > Usually default. If game isn't fullscreen, your desktop environment must display other things such as your wallpaper, shortcuts, taskbar, etc., using minute amounts of ram, but every last bit counts.
+     - noquicktime
+     - softparticlesdefaultoff
+     - particles 1
+     - precachefontchars
     
      (options past this point are optional & do not increase performance but improve user experience)
     
-     - -noforcemaccel          //  Disables mouse acceleration
-     - -novid                  //  Skips the Valve intro when booting TF2
+     - -noforcemaccel
+     > Disables mouse acceleration
+     - -novid
+     > Skips the Valve intro when booting TF2
   - Disabling the Steam overlay
   - Removing useless Windows services & drivers (ex. printers, text-to-speech, tips, many more -- !!BUT BE CAREFUL NOT TO REMOVE ESSENTIALS!!)
   - No hats mod
