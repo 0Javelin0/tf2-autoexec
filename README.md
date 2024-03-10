@@ -1,3 +1,4 @@
+### CONTENTS
 - [Installing](#()-installation)
 - [What will happen](#()-this-config-will)
 - [Future improvements](#()-future-updates)
@@ -6,11 +7,13 @@
 
 ## (+) INSTALLATION:
   1. Download the config file -> [autoexec.cfg](./autoexec.cfg)
+
   2. Move the file to TF2's config folder
      - Windows: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cfg\
      - Linux: ~/.local/share/Steam/steamapps/common/Team Fortress 2/tf/cfg/
      - NOTE: These locations are default. Even if you have changed the location where steam is configured, the folders/directories following 'Steam' above still apply.
-  3. Done!
+
+  4. Done!
      - If no changes to your game have happened, [try these things](#()-config-file-did-not-work)
      
 ## (!) THIS CONFIG WILL:
