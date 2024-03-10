@@ -1,3 +1,6 @@
+
+
+
 (!) THIS CONFIG WILL:
   - Remove ragdolls & gibs
   - Significantly lower textures for weapon skins(will nuke), map textures, & player model detail
@@ -16,6 +19,12 @@
   - Disable weather effects
 
 Despite large amounts of graphics trimming, this config still allows the game to look half decent, all the while increasing fps significantly.
+If you would like to add/edit/remove things from the config, feel free to do so. (see FUTURE UPDATES below)
+
+(+) FUTURE UPDATES:
+As of now the commands are labeled & grouped together by their general purposes.
+I understand this isn't very readable/neat, as well as some commands can multiple purposes, making this config convoluted & difficult to tweak to your specific preferences.
+Please check this repo occasionally, as I plan on fine-tuning the way the commands are sorted as well as explain what each command does/how it effects the gameplay.
 
 (+) EXTRA FPS TIPS:
   - Using a custom HUD rather than the default such as Toonhud will drastically improve fps(for me it was by 20) and looks better IMO.
@@ -27,10 +36,10 @@ Despite large amounts of graphics trimming, this config still allows the game to
      - -vrdisable              //  Disables compatibility with VR headsets
      - -fps_max #              //  # being the amount of fps to cap. I suggest your monitors refresh rate, but some would argue higher due to hit register advantages but IMO is placebo. Capping your fps increases stability and keeps it more consistent.
      - fullscreen              //  Usually default, but doesn't hurt to put in. If game isn't fullscreen, your desktop environment must display other things such as your wallpaper, shortcuts, taskbar, etc., using minute amounts of ram, but every last bit counts
-     - noquicktime             //
+     - noquicktime             //  
      - softparticlesdefaultoff //  
-     - particles 1             //
-     - precachefontchars       //
+     - particles 1             //  
+     - precachefontchars       //  
     
      (options past this point are optional & do not increase performance but improve user experience)
     
@@ -39,4 +48,4 @@ Despite large amounts of graphics trimming, this config still allows the game to
   - Disabling the Steam overlay
   - Removing useless Windows services & drivers (ex. printers, text-to-speech, tips, many more -- !!BUT BE CAREFUL NOT TO REMOVE ESSENTIALS!!)
   - Nohats mod
-  - If you are familiar with Linux, then play on Linux. TF2 has many issues for me with with Debian 12 so I switch over to Windows 11 to play, but if you are able to play on Linux do so. Windows is more than half the reason you get poor performance, due to massive amounts of bloat. Manually removing bloat or powershell scripts help with this, but is nearly impossible to remove all bloat from Windows machines.
+  - If you are familiar with Linux, then play on Linux. TF2 has many issues for me with with Debian 12 so I switch over to Windows 11 to play, but if you are able to play on Linux do so. Windows is half the reason you get poor performance, due to massive amounts of bloat. Manually removing bloat or powershell scripts help with this, but is nearly impossible to remove all bloat from Windows machines.
