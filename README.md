@@ -18,7 +18,8 @@
      
 ## (!) THIS CONFIG WILL:
   - Remove ragdolls & gibs
-  - Significantly lower textures for weapon skins(will nuke), map textures, & player model detail
+  - Nukes textures for weapon skins
+  - Significantly lowers map texture & player model detail
   - Remove map details such as grass
   - Remove the 3D sky effect
   - Remove almost all shading/gradients
@@ -56,13 +57,20 @@ Please check this repo occasionally, as I plan on fine-tuning the way the comman
      > Disables compatibility with VR headsets.
      - -fps_max #
      > '#' being the amount of fps to cap. Capping your fps increases stability and keeps it more consistent. I suggest your monitor's refresh rate, but some would argue set it higher due to hit register advantages.
-     - fullscreen
+     - -fullscreen
      > Usually default. If game isn't fullscreen, your desktop environment must display other things such as your wallpaper, shortcuts, taskbar, etc., using minute amounts of ram, but every last bit counts.
-     - noquicktime
-     - softparticlesdefaultoff
-     - particles 1
-     - precachefontchars
-    
+     - -noquicktime
+     > Disables rendering of replays
+     - -softparticlesdefaultoff
+     > 
+     - -particles 1
+     > 
+     - -precachefontchars
+     > 
+     - -noff
+     > Disables controller vibration
+     - -nogamepadui
+     > Self explanatory, disables UI for gamepad compatibility such as the steam deck.
      (options past this point are optional & do not increase performance but improve user experience)
     
      - -noforcemaccel
