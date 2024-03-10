@@ -13,8 +13,7 @@
   - Reduce water graphics & allow you to hear better underwater
   - Remove player face movement such as blinking, lip & eye movement, etc.
   - Reduce # of player decals to 12
-  - Disable weather
-  - cause noticable lighting defects such as ubered players looking darker
+  - Disable weather effects
 
 Despite large amounts of graphics trimming, this config still allows the game to look half decent, all the while increasing fps significantly.
 
@@ -26,6 +25,8 @@ Despite large amounts of graphics trimming, this config still allows the game to
      - -noipx                //  An unused networking protocol
      - -nojoy                //  Disables controller compatibility
      - -nohltv               //  Disables broadcasting
+     - -no-browser           //  Disables Steam overlay browser (source of the cancerous Steam Webhelper processes)
+     - -vrdisable            //  Disables compatibility with VR headsets
      (options past this point are optional & do not increase performance but improve user experience)
      - -noforcemaccel        //  Disables mouse acceleration
      - -novid                //  Skips the Valve intro when booting TF2
