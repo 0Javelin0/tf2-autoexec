@@ -1,11 +1,19 @@
-(+) INSTALLATION:
-  1. Download the config file.
-     - Right click on autoexec.cfg
-     - 
-     - Click 'Save as'
-     
+- [Installing](#()-installation)
+- [What will happen](#()-this-config-will)
+- [Future improvements](#()-future-updates)
+- [Extra tips for more fps](#()-extra-fps-tips)
+- [Didn't work?](#()-config-file-did-not-work)
 
-(!) THIS CONFIG WILL:
+## (+) INSTALLATION:
+  1. Download the config file -> [autoexec.cfg](./autoexec.cfg)
+  2. Move the file to TF2's config folder
+     - Windows: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cfg\
+     - Linux: ~/.local/share/Steam/steamapps/common/Team Fortress 2/tf/cfg/
+     - NOTE: These locations are default. Even if you have changed the location where steam is configured, the folders/directories following 'Steam' above still apply.
+  3. Done!
+     - If no changes to your game have happened, [try these things](#()-config-file-did-not-work)
+     
+## (!) THIS CONFIG WILL:
   - Remove ragdolls & gibs
   - Significantly lower textures for weapon skins(will nuke), map textures, & player model detail
   - Remove map details such as grass
@@ -23,14 +31,14 @@
   - Disable weather effects
 
 Despite large amounts of graphics trimming, this config still allows the game to look half decent, all the while increasing fps significantly.
-If you would like to add/edit/remove things from the config, feel free to do so. (see FUTURE UPDATES below)
+If you would like to add/edit/remove things from the config, feel free to do so. (see )
 
-(+) FUTURE UPDATES:
+## (+) FUTURE UPDATES:
 As of now the commands are labeled & grouped together by their general purposes.
 I understand this isn't very readable/neat, as well as some commands can have multiple purposes, making this config convoluted & difficult to tweak to your specific preferences.
 Please check this repo occasionally, as I plan on fine-tuning the way the commands are sorted as well as explain what each command does/how it effects the gameplay.
 
-(+) EXTRA FPS TIPS:
+## (+) EXTRA FPS TIPS:
   - Using a custom HUD rather than the default such as Toonhud will drastically improve fps(for me it was by 20) and looks better IMO.
   - Using Steam launch options such as these will trim bloat to improve performace:
      - -nosteamcontroller      //  Disables compatibility with steam deck.
@@ -53,3 +61,7 @@ Please check this repo occasionally, as I plan on fine-tuning the way the comman
   - Removing useless Windows services & drivers (ex. printers, text-to-speech, tips, many more -- !!BUT BE CAREFUL NOT TO REMOVE ESSENTIALS!!)
   - No hats mod
   - If you are familiar with Linux, then play on Linux. TF2 has many issues for me on Debian 12 so I switch over to Windows 11 to play, but if you are able to play on Linux do so. Windows is half the reason you get poor performance, due to massive amounts of bloat. Manually removing bloat or powershell scripts help with this, but is nearly impossible to remove all bloat from Windows machines.
+
+## (!) CONFIG FILE DID NOT WORK
+
+
