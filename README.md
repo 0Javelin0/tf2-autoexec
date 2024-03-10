@@ -8,12 +8,13 @@
   - Remove particles such as dust from walls being shot at, bullet shells when reloading, etc.
   - Remove teammate outlines after respawn
   - Shorten killfeed display duration
-  - Change cl_interp to 0.033
+  - Change cl_interp to 0.0152
   - Remove water splashes
   - Reduce water graphics & allow you to hear better underwater
   - Remove player face movement such as blinking, lip & eye movement, etc.
   - Reduce # of player decals to 12
   - Disable weather
+  - cause noticable lighting defects such as ubered players looking darker
 
 Despite large amounts of graphics trimming, this config still allows the game to look half decent, all the while increasing fps significantly.
 
