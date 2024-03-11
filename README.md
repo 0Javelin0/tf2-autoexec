@@ -83,8 +83,8 @@ Please check this repo occasionally, as I plan on fine-tuning the way the comman
   - No hats mod
   - If you are familiar with Linux, then play on Linux. TF2 has many issues for me on Debian 12 so I switch over to Windows 11 to play, but if you are able to play on Linux do so. Windows is half the reason you get poor performance, due to massive amounts of bloat. Manually removing bloat or powershell scripts help with this, but is nearly impossible to remove all bloat from Windows machines.
 
-## (!) CONFIG FILE DID NOT WORK
-  If for some reason TF2 is the exact same and no changes are visible, try these things:
+## (!) CONFIG FILE DID NOT WORK:
+  - If for some reason TF2 is the exact same and no changes are visible, try these things:
     - Type 'exec autoexec' into the console or add '+exec autoexec.cfg' to Steam launch options
     - Check that you put the file in the correct location
     - Check that you didn't modify the name/extension of the file
